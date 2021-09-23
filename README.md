@@ -1,4 +1,9 @@
 # Kel13_WebsiteProdi_IT_Del
+Nama Kelompok:
+11S19049	Albet Nainggolan
+11S19008	Rewina Pakpahan
+11s19024	Theresia Rumapea
+11S19054	Yoni Herlina Siahaan
 
 1. Repositori : https://github.com/albetmatthew/Kel13_WebsiteProdi_IT_Del
 
