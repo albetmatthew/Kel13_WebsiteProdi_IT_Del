@@ -1,63 +1,109 @@
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
-    text-decoration: underline !;
+  text-decoration: underline !;
 }
+
+hr {
+  opacity: 1;
+}
+/* START OF STYLE NAVBAR */
+.navbar img {
+  width: 65px;
+}
+.navbar {
+  background-color: #03045e;
+}
+.navbar ul li a:hover {
+  color: #666b58;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar .nav-link {
+  transition: all 0.3s ease-in-out;
+}
+.navbar .nav-link:hover {
+  border-bottom: 1px solid #666b58;
+}
+/* END OF STYLE NAVBAR */
+
+/* START OF SLIDER*/
+.slider-caption {
+  background-color: rgb(0, 0, 0, 0.7);
+  border-radius: 60px 0 60px 0;
+  position: absolute;
+  top: -327px;
+}
+.slider {
+  position: relative;
+  margin-bottom: 100px;
+}
+/* END OF SLIDER */
+
+/* START OF KAPRODI */
+.jabatan {
+  border-left: 5px solid #03045e;
+}
+ul li {
+  list-style: none;
+}
+.kaprodi hr {
+  border-bottom: 5px solid #03045e;
+}
+/* END OF KAPRODI */
 
 /* NewsLetter Style */
 #news .card {
-    border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    border: none;
-    overflow: hidden;
-    transition: all 0.3s ease;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border: none;
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
 
 #news .card:hover {
-    transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 #news .card h5 {
-    font-size: 19px;
-    font-weight: bold;
-    color: #0077B6;
+  font-size: 19px;
+  font-weight: bold;
+  color: #0077b6;
 }
 
 #news .card p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 #news .card .baca {
-    font-size: 12px;
-    color: #03045E;
-    margin-top: -10px;
+  font-size: 12px;
+  color: #03045e;
+  margin-top: -10px;
 }
 
 #news .card .date {
-    font-size: 12px;
-    color: #656565;
-
+  font-size: 12px;
+  color: #656565;
 }
 
 #news .newsletter-header {
-    padding: 10px;
-    border-radius: 15px;
-    background-color: #03045E;
-    color: #fff;
-    /* font-weight: bold; */
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #03045e;
+  color: #fff;
+  /* font-weight: bold; */
 }
 
 #news .newsletter-text {
-    line-height: 25px;
-    text-align: justify;
+  line-height: 25px;
+  text-align: justify;
 }
 
 #news .btn-subscribe {
-    background-color: #90E0EF;
-    border: none;
-    color: #000
+  background-color: #90e0ef;
+  border: none;
+  color: #000;
 }
 
 /* The End of NewsLetter Style */
@@ -65,22 +111,22 @@ a {
 /* Lecturer Style */
 
 .dosen-title {
-    font-weight: bold;
-    color: #0077B6;
+  font-weight: bold;
+  color: #0077b6;
 }
 
 #lecturer .card {
-    border: none;
+  border: none;
 }
 
 #lecturer .card h5 {
-    font-weight: bold;
-    color: #0077B6;
+  font-weight: bold;
+  color: #0077b6;
 }
 
 #lecturer .card .lecturer-img {
-    border: 3px solid #0077B6;
-    overflow: auto
+  border: 3px solid #0077b6;
+  overflow: auto;
 }
 
 /* The End Of Lecturer Style */
