@@ -9,23 +9,29 @@ a {
 hr {
   opacity: 1;
 }
+
 /* START OF STYLE NAVBAR */
 .navbar img {
   width: 65px;
 }
+
 .navbar {
   background-color: #03045e;
 }
+
 .navbar ul li a:hover {
   color: #666b58;
   border-bottom: 1px solid #f2f2f2;
 }
+
 .navbar .nav-link {
   transition: all 0.3s ease-in-out;
 }
+
 .navbar .nav-link:hover {
   border-bottom: 1px solid #666b58;
 }
+
 /* END OF STYLE NAVBAR */
 
 /* START OF SLIDER*/
@@ -35,53 +41,63 @@ hr {
   position: absolute;
   top: -327px;
 }
+
 .slider {
   position: relative;
   margin-bottom: 100px;
 }
+
 /* END OF SLIDER */
 
 /* START OF KAPRODI */
 .jabatan {
   border-left: 5px solid #03045e;
 }
+
 ul li {
   list-style: none;
 }
+
 .kaprodi hr {
   border-bottom: 5px solid #03045e;
 }
+
 /* END OF KAPRODI */
 
 /* The start of Tentnag Himasti */
-.container{
-  margin-top: 2rem;
+.container {
+  /* margin-top: 2rem; */
 }
 
-.container{
+.container {
   font-family: 'Roboto', sans-serif;
 }
-.col-md-5 img{
+
+.col-md-5 img {
   width: 100%;
   height: 300px;
 }
-.img-fluid{
+
+.img-fluid {
   max-width: 100%;
 }
-#content-tentang{
+
+#content-tentang {
   margin-right: 0;
 }
-#content-tentang h2{
+
+#content-tentang h2 {
   color: #03045E;
   font-weight: bold;
 }
 
-.btn{
+.btn {
   border-radius: 30px;
   background-color: #03045E;
   color: #fff;
   cursor: pointer;
 }
+
 /* The end of Tentang Himasti */
 /* NewsLetter Style */
 #news .card {
@@ -168,24 +184,26 @@ ul li {
   background-color: #fff;
   border-radius: 100%;
 }
+
 .testimonial-slider {
   padding: 10px 0px 40px;
   background-color: #03045E;
 }
-.img-responsive{
+
+.img-responsive {
   border-radius: 50%;
   width: 100px;
   height: 100px;
   border: 5px rgb(167, 153, 153) solid;
 }
 
-figure{
+figure {
   background-color: #fff;
   border-radius: 10px;
   padding: 1rem;
 }
 
-figcaption{
+figcaption {
   color: #4099C8;
   font-size: .8rem;
   font-weight: bold;
@@ -193,3 +211,33 @@ figcaption{
 
 
 /* The End of Testimonial */
+
+
+/* prestasi.html */
+/* Jumbotron Prestasi */
+#prestasi-jumbotron {
+  height: 600px;
+  background-image: url(../img/prestasi/wisuda.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#prestasi-jumbotron h1 {
+  position: relative;
+  top: 180px;
+  padding: 20px;
+  /* background-color: #0077B6; */
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 200px;
+}
+
+/* End of Jumbotron Prestasi */
+
+/* Table Prestasi */
+#table-prestasi .card {
+  top: -200px;
+  border-radius: 20px;
+  box-shadow: 0 0 47px rgba(0, 0, 0, 0.5);
+}
