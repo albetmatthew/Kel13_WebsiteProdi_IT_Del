@@ -25,7 +25,7 @@ hr {
 }
 
 .navbar .nav-link {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .navbar .nav-link:hover {
@@ -70,7 +70,7 @@ ul li {
 }
 
 .container {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .col-md-5 img {
@@ -87,13 +87,13 @@ ul li {
 }
 
 #content-tentang h2 {
-  color: #03045E;
+  color: #03045e;
   font-weight: bold;
 }
 
 .btn {
   border-radius: 30px;
-  background-color: #03045E;
+  background-color: #03045e;
   color: #fff;
   cursor: pointer;
 }
@@ -154,6 +154,21 @@ ul li {
 
 /* The End of NewsLetter Style */
 
+/* START OF STATUS */
+.astatus .material-icons {
+  font-size: 60px;
+  color: #03045e;
+}
+.astatus {
+  filter: drop-shadow(0 0 50px #34358a);
+  margin-bottom: 60px;
+  transition: all 0.3s;
+}
+.astatus:hover {
+  transform: scale(1.05);
+}
+/* END OF STATUS */
+
 /* Lecturer Style */
 
 .dosen-title {
@@ -187,7 +202,7 @@ ul li {
 
 .testimonial-slider {
   padding: 10px 0px 40px;
-  background-color: #03045E;
+  background-color: #03045e;
 }
 
 .img-responsive {
@@ -204,14 +219,34 @@ figure {
 }
 
 figcaption {
-  color: #4099C8;
-  font-size: .8rem;
+  color: #4099c8;
+  font-size: 0.8rem;
   font-weight: bold;
 }
 
-
 /* The End of Testimonial */
 
+/* START OF FOOTER */
+.footer {
+  background-color: #03045e;
+  color: #fff;
+}
+.footer .container {
+  flex-wrap: wrap;
+}
+.footer p {
+  font-size: 15px;
+  font-weight: lighter;
+}
+.icon-sosial-media .bx {
+  font-size: 60px;
+  transition: all 0.4s;
+}
+.icon-sosial-media .bx:hover {
+  font-size: 61px;
+  color: rgb(150, 150, 150);
+}
+/* END OF FOOTER */
 
 /* prestasi.html */
 /* Jumbotron Prestasi */
@@ -244,63 +279,62 @@ figcaption {
 
 /* The start of kegiatan Himasti */
 
-#container-kegiatan{
+#container-kegiatan {
   margin-top: 2rem;
   /* border: black solid 2px; */
 }
 
-#side-navbar .active{
-  background-color: #1C819D;
+#side-navbar .active {
+  background-color: #1c819d;
   margin-top: 0;
   font-weight: bold;
 }
 
-#side-nav{
+#side-nav {
   padding: 1rem;
   margin-top: 10px;
-
 }
 
-.non-active{
+.non-active {
   background-color: #fff;
 }
-#side-navbar{
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+#side-navbar {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   border-radius: 10px;
   margin-top: 1rem;
-
 }
-#side-navbar a{
+#side-navbar a {
   color: #fff;
   width: 100%;
 }
 
-.rounded-start{
+.rounded-start {
   width: 100%;
   height: 100%;
   border-radius: 5px;
 }
 
-.kegiatan-card{
+.kegiatan-card {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.btn-sel,.pend{
+.btn-sel,
+.pend {
   text-align: center;
   cursor: pointer;
 }
-.pend{
+.pend {
   border-radius: 2px;
   padding: 3px 10px 3px 10px;
   font-size: 12px;
-  background-color: #9E7BFF;
+  background-color: #9e7bff;
   text-transform: capitalize;
   color: white;
   margin: 0px;
   width: fit-content;
 }
 
-.desc{
+.desc {
   margin-top: 3px;
   font-size: 14px;
   overflow: hidden;
@@ -310,7 +344,7 @@ figcaption {
   -webkit-box-orient: vertical;
 }
 
-#judul-kegiatan{
+#judul-kegiatan {
   display: block;
   font-size: 20px;
   font-weight: bold;
@@ -318,8 +352,8 @@ figcaption {
   border-bottom: 1px solid #ffbe00;
   margin-bottom: 0;
 }
-.btn-sel{
-  background-color: #90E0EF;
+.btn-sel {
+  background-color: #90e0ef;
   width: fit-content;
   margin-top: -15px;
   color: #1c819d;
@@ -327,7 +361,7 @@ figcaption {
   padding: 3px 10px 3px 10px;
 }
 
-.search{
+.search {
   margin-bottom: 2rem;
 }
 
