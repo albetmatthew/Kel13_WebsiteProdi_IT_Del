@@ -241,3 +241,94 @@ figcaption {
   border-radius: 20px;
   box-shadow: 0 0 47px rgba(0, 0, 0, 0.5);
 }
+
+/* The start of kegiatan Himasti */
+
+#container-kegiatan{
+  margin-top: 2rem;
+  /* border: black solid 2px; */
+}
+
+.active{
+  background-color: #1C819D;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+#side-nav{
+  padding: 1rem;
+  margin-top: 10px;
+
+}
+
+.non-activer{
+  background-color: #fff;
+}
+li{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 10px;
+  margin-top: 1rem;
+
+}
+li a{
+  color: #fff;
+  width: 100%;
+}
+
+.rounded-start{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.kegiatan-card{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-sel,.pend{
+  text-align: center;
+  cursor: pointer;
+}
+.pend{
+  border-radius: 2px;
+  padding: 3px 10px 3px 10px;
+  font-size: 12px;
+  background-color: #9E7BFF;
+  text-transform: capitalize;
+  color: white;
+  margin: 0px;
+  width: fit-content;
+}
+
+.desc{
+  margin-top: 3px;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.card-title{
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1c819d;
+  border-bottom: 1px solid #ffbe00;
+  margin-bottom: 0;
+}
+.btn-sel{
+  background-color: #90E0EF;
+  width: fit-content;
+  margin-top: -15px;
+  color: #1c819d;
+  font-size: 10px;
+  padding: 3px 10px 3px 10px;
+}
+
+.search{
+  margin-bottom: 2rem;
+}
+
+/* The end of Kegiatan Himasti */
