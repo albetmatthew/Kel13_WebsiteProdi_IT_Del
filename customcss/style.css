@@ -246,6 +246,10 @@ figcaption {
   font-size: 61px;
   color: rgb(150, 150, 150);
 }
+.footer-copyright {
+  background-color: #003e5f;
+  font-weight: lighter;
+}
 /* END OF FOOTER */
 
 /* prestasi.html */
