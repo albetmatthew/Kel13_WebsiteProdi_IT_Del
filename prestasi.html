@@ -10,6 +10,10 @@
   <script src="js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="customcss/style.css">
 
+ <!-- link untuk icon -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+
   <!-- Roboto Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +22,40 @@
 
 <body>
     
+    <!-- The Start of Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="img/LogoHimasti.png" alt="logo himasti" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+            <li class="nav-item me-3">
+              <a class="nav-link text-white" aria-current="page" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item dropdown me-3">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Tentang Kita </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Visi Misi</a></li>
+                <li><a class="dropdown-item" href="#">Struktur Organisasi</a></li>
+                <li><a class="dropdown-item" href="#">Staff Dosen</a></li>
+              </ul>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link text-white" href="kegiatan.html">Kegiatan</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link text-white" href="prestasi.html">Prestasi</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link text-white" href="#">Hubungi Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- The End of Navbar -->
     <div id="prestasi-jumbotron" class="jumbotron jumbotron-fluid bg-primary">
         <div class="container">
           <h1 class="display-4 text-center">PRESTASI</h1>
@@ -32,29 +70,71 @@
                         <table class="table table-hover">
                             <thead>
                               <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">First</th>
-                                <th scope="col">Last</th>
-                                <th scope="col">Handle</th>
+                                <th scope="col">No</th>
+                                <th scope="col">Tahun</th>
+                                <th scope="col">Prestasi</th>
+                               
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
                                 <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
+                                <td>2018</td>
+                                <td>
+                                  <ol>
+                                    <li>Peserta Google Fasilitator Terbaik - Golden Award</li>
+                                    <li>Huawei Certified Network Associate)</li>
+                                    <li>
+                                      Pemilihan Mahasiswa Berprestasi (Pilmapres) 2018 program Sarjana
+                                    </li>
+                                    <li>Peserta Google Fasilitator Terbaik - Golden Award</li>
+                                    <li>Huawei Certified Network Associate)</li>
+                                    <li>
+                                      Pemilihan Mahasiswa Berprestasi (Pilmapres) 2018 program Sarjana
+                                    </li>
+                                  </ol>
+                                </td>
+                               
                               </tr>
                               <tr>
                                 <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
+                                <td>2019</td>
+                                <td>
+                                  <ol>
+                                    <li>Peserta Google Fasilitator Terbaik - Golden Award</li>
+                                    <li>Huawei Certified Network Associate)</li>
+                                    <li>
+                                      Pemilihan Mahasiswa Berprestasi (Pilmapres) 2018 program Sarjana
+                                    </li>
+                                    <li>Peserta Google Fasilitator Terbaik - Golden Award</li>
+                                    <li>Huawei Certified Network Associate)</li>
+                                    <li>
+                                      Pemilihan Mahasiswa Berprestasi (Pilmapres) 2018 program Sarjana
+                                    </li>
+                                  </ol>
+                                </td>
+
+                                
                               </tr>
                               <tr>
                                 <th scope="row">3</th>
-                                <td colspan="2">Larry the Bird</td>
-                                <td>@twitter</td>
+                                <td>2020</td>
+                                <td>
+                                  <ol>
+                                    <li>Peserta Google Fasilitator Terbaik - Golden Award</li>
+                                    <li>Huawei Certified Network Associate)</li>
+                                    <li>
+                                      Pemilihan Mahasiswa Berprestasi (Pilmapres) 2018 program Sarjana
+                                    </li>
+                                    <li>Peserta Google Fasilitator Terbaik - Golden Award</li>
+                                    <li>Huawei Certified Network Associate)</li>
+                                    <li>
+                                      Pemilihan Mahasiswa Berprestasi (Pilmapres) 2018 program Sarjana
+                                    </li>
+                                  </ol>
+                                </td>
+
+                               
                               </tr>
                             </tbody>
                           </table>
@@ -64,6 +144,45 @@
         </div>
     </div>
 
+       <!-- The START OF FOOTER -->
+   <section class="footer mt-5">
+    <div class="container pt-5 pb-5 d-flex justify-content-between">
+      <div class="footer-story col-md-4 mb-3">
+        <h5>Tentang Informatika</h5>
+        <p class="mt-4">
+          Program Studi S1 Teknik Informatika merupakan salah satu dari 4 (empat) program studi di bawah Fakultas Teknik Informatika dan Elektro di Institut Teknologi Del. Program studi ini dibentu “ Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Nunc vulputate quam vitae purus efficitur pulvinar id a lectus. Phasellus at magna
+        </p>
+      </div>
+      <div class="footer-hubungi-kami col-md-3 mb-3">
+        <h5>Hubungi Kami</h5>
+        <div class="d-flex justify-content-start mt-4">
+          <span class="material-icons me-3"> location_on </span>
+          <p>Jl. P.I. Del, Sitoluama, Lagu Boti, Kabupaten Toba Samosir, Sumatera Utara</p>
+        </div>
+        <div class="d-flex justify-content-start">
+          <span class="material-icons me-3"> email</span>
+          <p>Informatika@del.ac.id</p>
+        </div>
+        <div class="d-flex justify-content-start">
+          <span class="material-icons me-3"> call</span>
+          <p>+62822988XXXXX</p>
+        </div>
+      </div>
+      <div class="footer-sosmed col-md-3 mb-3">
+        <h5>Sosial Media</h5>
+        <div class="icon-sosial-media d-flex mt-4">
+          <a class="text-white" href="https://www.facebook.com/Institut.Teknologi.Del/" target="_blank"><i class="bx bxl-facebook-square me-3"></i></a>
+          <a class="text-white" href="https://www.youtube.com/channel/UCi_VutHsvtyaJQ84s9xdSDg" target="_blank"> <i class="bx bxl-youtube me-3"></i> </a>
+          <a class="text-white" href="https://www.instagram.com/it.del/?hl=id" target="_blank"><i class="bx bxl-instagram"></i> </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container d-flex justify-content-center align-items-center p-5">CopyRight <span class="material-icons me-2 ms-2"> copyright </span> 2021 Program Studi Informatika. All Rights Reserved.</div>
+    </div>
+  </section>
+  <!-- The END OF FOOTER -->
 
     
     

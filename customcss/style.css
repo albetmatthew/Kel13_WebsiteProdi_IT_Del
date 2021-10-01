@@ -159,14 +159,17 @@ ul li {
   font-size: 60px;
   color: #03045e;
 }
+
 .astatus {
   filter: drop-shadow(0 0 50px #34358a);
   margin-bottom: 60px;
   transition: all 0.3s;
 }
+
 .astatus:hover {
   transform: scale(1.05);
 }
+
 /* END OF STATUS */
 
 /* Lecturer Style */
@@ -231,25 +234,31 @@ figcaption {
   background-color: #03045e;
   color: #fff;
 }
+
 .footer .container {
   flex-wrap: wrap;
 }
+
 .footer p {
   font-size: 15px;
   font-weight: lighter;
 }
+
 .icon-sosial-media .bx {
   font-size: 60px;
   transition: all 0.4s;
 }
+
 .icon-sosial-media .bx:hover {
   font-size: 61px;
   color: rgb(150, 150, 150);
 }
+
 .footer-copyright {
   background-color: #003e5f;
   font-weight: lighter;
 }
+
 /* END OF FOOTER */
 
 /* prestasi.html */
@@ -279,6 +288,7 @@ figcaption {
   top: -200px;
   border-radius: 20px;
   box-shadow: 0 0 47px rgba(0, 0, 0, 0.5);
+  margin-bottom: -200px;
 }
 
 /* The start of kegiatan Himasti */
@@ -302,11 +312,13 @@ figcaption {
 .non-active {
   background-color: #fff;
 }
+
 #side-navbar {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   border-radius: 10px;
   margin-top: 1rem;
 }
+
 #side-navbar a {
   color: #fff;
   width: 100%;
@@ -327,6 +339,7 @@ figcaption {
   text-align: center;
   cursor: pointer;
 }
+
 .pend {
   border-radius: 2px;
   padding: 3px 10px 3px 10px;
@@ -356,6 +369,7 @@ figcaption {
   border-bottom: 1px solid #ffbe00;
   margin-bottom: 0;
 }
+
 .btn-sel {
   background-color: #90e0ef;
   width: fit-content;
