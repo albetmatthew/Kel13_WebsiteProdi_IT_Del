@@ -230,6 +230,17 @@ figcaption {
 
 /* The End of Testimonial */
 
+/* The Start Of Join */
+.join {
+  background-color: #0077b6;
+  color: #fff;
+}
+.join button {
+  background-color: #03045e;
+  filter: drop-shadow(3px 3px 8px #fff);
+}
+/* The End Of Join */
+
 /* START OF FOOTER */
 .footer {
   background-color: #03045e;
@@ -406,3 +417,35 @@ figcaption {
 }
 
 /* The end of Kegiatan Himasti */
+
+/* The Start Of Visi Misi */
+.visimisi h1 {
+  color: #03045e;
+}
+.visimisi hr {
+  border-bottom: 5px solid #03045e;
+}
+.visimisi .material-icons {
+  font-size: 180px;
+  color: #003e5f;
+}
+.visimisi h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #003e5f;
+}
+.visimisi p,
+.visimisi ol li {
+  font-size: 23px;
+}
+
+.visimisi p {
+  font-style: italic;
+}
+.visimisi .bottom-visi {
+  width: 240px;
+}
+.visimisi .bottom-misi {
+  width: 270px;
+}
+/* The End Of Visi Misi */
