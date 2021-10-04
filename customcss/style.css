@@ -176,7 +176,8 @@ ul li {
 
 .dosen-title {
   font-weight: bold;
-  color: #0077b6;
+  /* color: #0077b6; */
+  color: #03045e;
 }
 
 #lecturer .card {
@@ -189,8 +190,12 @@ ul li {
 }
 
 #lecturer .card .lecturer-img {
-  border: 3px solid #0077b6;
+  filter: drop-shadow(0 0 17px #bfbfeb);
   overflow: auto;
+  transition: all 0.3s;
+}
+#lecturer .card .lecturer-img:hover {
+  transform: scale(1.05);
 }
 
 /* The End Of Lecturer Style */
@@ -241,7 +246,7 @@ figcaption {
 
 .footer p {
   font-size: 15px;
-  font-weight: lighter;
+  font-weight: li;
 }
 
 .icon-sosial-media .bx {
