@@ -19,6 +19,7 @@ hr {
   background-color: #03045e;
 }
 
+
 .navbar ul li a:hover {
   color: #666b58;
   border-bottom: 1px solid #f2f2f2;
@@ -30,6 +31,10 @@ hr {
 
 .navbar .nav-link:hover {
   border-bottom: 1px solid #666b58;
+}
+
+.navbar-toggler {
+  background-color: #fff !important;
 }
 
 /* END OF STYLE NAVBAR */
@@ -190,6 +195,7 @@ ul li {
   overflow: auto;
   transition: all 0.3s;
 }
+
 #lecturer .card .lecturer-img:hover {
   transform: scale(1.05);
 }
@@ -235,10 +241,12 @@ figcaption {
   background-color: #0077b6;
   color: #fff;
 }
+
 .join button {
   background-color: #03045e;
   filter: drop-shadow(3px 3px 8px #fff);
 }
+
 /* The End Of Join */
 
 /* START OF FOOTER */
@@ -422,18 +430,22 @@ figcaption {
 .visimisi h1 {
   color: #03045e;
 }
+
 .visimisi hr {
   border-bottom: 5px solid #03045e;
 }
+
 .visimisi .material-icons {
   font-size: 180px;
   color: #003e5f;
 }
+
 .visimisi h2 {
   font-size: 32px;
   font-weight: bold;
   color: #003e5f;
 }
+
 .visimisi p,
 .visimisi ol li {
   font-size: 23px;
@@ -442,10 +454,13 @@ figcaption {
 .visimisi p {
   font-style: italic;
 }
+
 .visimisi .bottom-visi {
   width: 240px;
 }
+
 .visimisi .bottom-misi {
   width: 270px;
 }
+
 /* The End Of Visi Misi */
