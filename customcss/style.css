@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  margin-top: 85px;
 }
 
 a {
@@ -17,9 +18,12 @@ hr {
 
 .navbar {
   background-color: #03045e;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
 }
-
-
 .navbar ul li a:hover {
   color: #666b58;
   border-bottom: 1px solid #f2f2f2;
@@ -461,6 +465,29 @@ figcaption {
 
 .visimisi .bottom-misi {
   width: 270px;
+}
+
+#visimisi-jumbotron {
+  height: 600px;
+  background-image: url(../img/prestasi/wisuda.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#visimisi-jumbotron h1 {
+  position: relative;
+  top: 180px;
+  padding: 20px;
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 5rem;
+}
+#visimisi .card {
+  top: -200px;
+  border-radius: 20px;
+  box-shadow: 0 0 47px rgba(0, 0, 0, 0.5);
+  margin-bottom: -200px;
+  padding: 35px;
 }
 
 /* The End Of Visi Misi */
